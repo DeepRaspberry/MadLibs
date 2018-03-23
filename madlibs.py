@@ -1,3 +1,5 @@
+stories = ["1. Hall Pass 1", "2. Hall Pass 2", "3. Hall Pass 3"]
+print("\n".join(stories))
 story_choice = input("Which story do you want? Enter 1, 2, or 3: ")
 def storybegin(story):
     if story.strip() == "1":
